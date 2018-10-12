@@ -18,7 +18,7 @@ function Book(props) {
 				<div className="book-top">
 					<div
 						className="book-cover"
-						style={{ width: 128, height: 193, backgroundImage: `url(${thumbnail})` }}
+						style={{ width: 120, height: 190, backgroundImage: `url(${thumbnail})` }}
 					/>
 					<BookShelfChanger book={book} onChangeShelf={onChangeShelf} />
 				</div>
